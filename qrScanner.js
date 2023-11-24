@@ -41,7 +41,7 @@ var id = happybirthday;
 qrcode.callback = res => {
   if (res) {
     const qrText = res;
-    } else if (qrText == "happybirthday") {
+    } if (qrText == "happybirthday") {
         id =  happybirthday;
     } else {
         id = unknown;
